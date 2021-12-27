@@ -13,14 +13,15 @@
         <title>Teatre El Sol</title>
     </head>
     <body>
-        <header class="p-3 flex justify-between bg-blue-light">
+        <header class="p-3 flex md:justify-between bg-blue-light">
             <div>
                 <i
-                    class="fas fa-theater-masks fa-3x text-blue-uocmasterband"
-                ></i>
+                    class="fas fa-theater-masks fa-3x icon-blue"
+                ></i>             
             </div>
-            <div class=>
-                <nav>
+            <div class="flex">
+                <i class="fas fa-bars fa-3x md:invisible absolute top-5 right-5 text-gray-dark"></i>
+                <nav class="invisible md:visible">
                     <div>
                         <div>
                             <ul class="flex space-x-4 pr-5 pt-4 font-medium">
@@ -55,15 +56,9 @@
             </div>
         </header>
         <main class="md:pl-36 md:pr-36">
-            <p class="
-                    text-center text-xl
-                    md:text-2xl
-                    p-8
-                    text-gray-dark
-                    uppercase
-                ">Blog</p>
+            <p class="title-gray">Blog</p>
             <img
-                class="md:pl-44 md:pr-44"
+                class="xl:pl-44 xl:pr-44"
                 src="./assets/images/teatre1.jpg"
                 alt="teatre"
             />
@@ -146,7 +141,7 @@
                 src="./assets/images/teatre2.jpg"
                 alt="teatre"
             />
-            <p class="md:text-lg p-10 font-extrabold text-gray-dark md:pl-56 md:pr-56">Esperem que siga un èxit aquesta nova gira. S'han dedicat moltes hores per a fer-la realitat i sols ens queda que mostrar-vos-la de la millor manera!</p>
+            <p class="md:text-lg p-10 font-extrabold text-gray-dark lg:pl-56 lg:pr-56">Esperem que siga un èxit aquesta nova gira. S'han dedicat moltes hores per a fer-la realitat i sols ens queda que mostrar-vos-la de la millor manera!</p>
             </div>
             
         </main>
@@ -156,27 +151,27 @@
                 <div class="pb-7 grid justify-center">
                     <div><h2 class="font-galatia uppercase p-6 pt-8 sm:p-20 sm:transform sm:-rotate-90 text-xl">Nosaltres</h2></div>
                     <div><ul class="pl-2 sm:pl-24">
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Història</a></li>
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Actuacions</a></li>
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Integrants</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Història</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Actuacions</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Integrants</a></li>
                     </ul></div>
                     
                 </div>
                  <div class="pb-7 grid justify-center">
                     <div><h2 class="font-galatia uppercase p-6 pt-8 sm:p-20 sm:transform sm:-rotate-90 text-xl">Recursos</h2></div>
                     <div><ul class="pl-2 sm:pl-24">
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Panflets</a></li>
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Blog</a></li>
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Fotos</a></li>
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Gires</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Panflets</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Blog</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Fotos</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Gires</a></li>
                     </ul></div>
                 </div>
                 <div class="pb-7 grid justify-center">
                     <div><h2 class="font-galatia uppercase p-6 pt-8 sm:p-20 sm:transform sm:-rotate-90 text-xl">Contacte</h2></div>
                     <div><ul class="pl-2 sm:pl-24">
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Ajuda</a></li>
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Contractació</a></li>
-                        <li class="p-3"><a href="#" class="font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband">Publicitat</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Ajuda</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Contractació</a></li>
+                        <li class="p-3"><a href="#" class="link-border-blue">Publicitat</a></li>
                     </ul></div>
                 </div>
             </section>
@@ -196,28 +191,22 @@
                     <li>
                         <ul class="flex space-x-8 pr-5 pt-4  ">
                             <li>
-                                <a href="#"><i class="fab fa-facebook sm:border-t-4 border-blue-uocmasterband text-xl
-                                         sm:text-2xl hover:text-blue-uocmasterband"></i></a>
+                                <a href="#"><i class="fab fa-facebook icon-border-blue"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-twitter sm:border-t-4 border-blue-uocmasterband text-xl
-                                         sm:text-2xl hover:text-blue-uocmasterband"></i></a>
+                                <a href="#"><i class="fab fa-twitter icon-border-blue"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-instagram sm:border-t-4 border-blue-uocmasterband text-xl
-                                         sm:text-2xl hover:text-blue-uocmasterband"></i></a>
+                                <a href="#"><i class="fab fa-instagram icon-border-blue"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-github sm:border-t-4 border-blue-uocmasterband text-xl
-                                         sm:text-2xl hover:text-blue-uocmasterband"></i></a>
+                                <a href="#"><i class="fab fa-github icon-border-blue"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-linkedin sm:border-t-4 border-blue-uocmasterband text-xl
-                                         sm:text-2xl hover:text-blue-uocmasterband"></i></a>
+                                <a href="#"><i class="fab fa-linkedin icon-border-blue"></i></a>
                             </li>
                             <li>
-                                <a href="#"><i class="fab fa-youtube sm:border-t-4 border-blue-uocmasterband text-xl
-                                         sm:text-2xl hover:text-blue-uocmasterband"></i></a>
+                                <a href="#"><i class="fab fa-youtube icon-border-blue"></i></a>
                             </li>
                         </ul>
                     </li>

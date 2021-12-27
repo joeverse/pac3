@@ -31,3 +31,18 @@
  */
 
 @tailwind utilities;
+
+@layer components {
+  .icon-blue {
+    @apply py-2 px-4 bg-blue-uocmasterband text-blue-light font-semibold rounded-lg shadow-md hover:bg-blue-uoccorporate focus:outline-none focus:ring-2;
+  }
+  .title-gray {
+    @apply text-center text-xl md:text-2xl p-8 text-gray-dark uppercase;
+  }
+  .link-border-blue {
+    @apply font-avenir uppercase p-1 hover:underline font-extrabold hover:text-blue-uoccorporate border-t-4 border-blue-uocmasterband;
+  }
+  .icon-border-blue {
+    @apply sm:border-t-4 border-blue-uocmasterband text-xl sm:text-2xl hover:text-blue-uocmasterband;
+  }
+}
